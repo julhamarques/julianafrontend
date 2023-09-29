@@ -1,0 +1,30 @@
+
+
+/* Estilos CSS para o menu*/
+header {
+   /* background-color: rgb(30, 30, 30);*/
+   background-image: url(https://i.gifer.com/ZOZR.gif);
+    color: rgb(3, 0, 0);
+    padding: 10px;
+    text-align: center;
+}
+nav ul{
+    list-style-type: none;
+}
+
+nav ul li{
+    display: inline; /*coloca os itens da lista em linha */
+    margin-right: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(15, 4, 79);
+    font-weight:lighter
+}
+nav ul li a:hover{
+    text-decoration: underline;
+    color: rgb(0, 0, 0)
+}
+
+body { background: #084b01 url('azul-claro5.webp'); 
+    font: 16px Arial, Helvetica, sans-serif; }
