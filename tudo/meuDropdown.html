@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+ 
+    <title>Document</title>
+</head>
+<body>
+    <button id="dropdown">Menu</button>
+    <div id="menu" class="escondida">
+        <a href="#">item 1</a><br>
+        <a href="#">item 2</a><br>
+        <a href="#">item 3</a><br>
+    </div>
+ <script>
+    const botao = document.getElementById('dropdown');
+    const dropdownMenu = document.getElementById('menu');
+    botao.addEventListener("click", function ()  {
+        menu.style.display= 'block'
+        console.log('funciona')
+    });
+ </script>
+    
+</body>
+</html>
+
